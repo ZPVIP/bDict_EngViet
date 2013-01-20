@@ -53,6 +53,12 @@
     storageView = [[StorageView alloc] initWithFrame:self.contentView.bounds];
     settingView = [[SettingView alloc] initWithFrame:self.contentView.bounds];
     
+    // change bookmark icon
+//    [self.theSearchBar setImage:[UIImage imageNamed:@"BookmarkButtonNormal.png"]
+//               forSearchBarIcon:UISearchBarIconBookmark state:UIControlStateNormal];
+//    [self.theSearchBar setImage:[UIImage imageNamed:@"BookmarkButtonSelected.png"]
+//               forSearchBarIcon:UISearchBarIconBookmark state:UIControlStateSelected];
+    
     [self.contentView addSubview:homeView];
     [self.theTabbar setSelectedItem:self.homeTabBarItem];
 }
