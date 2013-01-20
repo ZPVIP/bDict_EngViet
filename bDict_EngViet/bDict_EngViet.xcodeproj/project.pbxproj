@@ -23,6 +23,12 @@
 		0F5B215D16AABBFC00F5E928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B213816AABBFC00F5E928 /* Foundation.framework */; };
 		0F5B216516AABBFC00F5E928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F5B216316AABBFC00F5E928 /* InfoPlist.strings */; };
 		0F5B216816AABBFC00F5E928 /* bDict_EngVietTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B216716AABBFC00F5E928 /* bDict_EngVietTests.m */; };
+		0F5B217316AAEC0D00F5E928 /* top_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5B217216AAEC0D00F5E928 /* top_image.jpg */; };
+		0FB7076E16ABB4DC00AC6FF5 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7076D16ABB4DC00AC6FF5 /* home.png */; };
+		0FB7077216ABB55600AC6FF5 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7077116ABB55600AC6FF5 /* HomeView.m */; };
+		0FB7077516ABB57100AC6FF5 /* HistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7077416ABB57100AC6FF5 /* HistoryView.m */; };
+		0FB7077816ABB57E00AC6FF5 /* StorageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7077716ABB57E00AC6FF5 /* StorageView.m */; };
+		0FB7077B16ABB58E00AC6FF5 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7077A16ABB58E00AC6FF5 /* SettingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,16 @@
 		0F5B216416AABBFC00F5E928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F5B216616AABBFC00F5E928 /* bDict_EngVietTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bDict_EngVietTests.h; sourceTree = "<group>"; };
 		0F5B216716AABBFC00F5E928 /* bDict_EngVietTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bDict_EngVietTests.m; sourceTree = "<group>"; };
+		0F5B217216AAEC0D00F5E928 /* top_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top_image.jpg; sourceTree = "<group>"; };
+		0FB7076D16ABB4DC00AC6FF5 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		0FB7077016ABB55600AC6FF5 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		0FB7077116ABB55600AC6FF5 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		0FB7077316ABB57100AC6FF5 /* HistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryView.h; sourceTree = "<group>"; };
+		0FB7077416ABB57100AC6FF5 /* HistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryView.m; sourceTree = "<group>"; };
+		0FB7077616ABB57E00AC6FF5 /* StorageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageView.h; sourceTree = "<group>"; };
+		0FB7077716ABB57E00AC6FF5 /* StorageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageView.m; sourceTree = "<group>"; };
+		0FB7077916ABB58E00AC6FF5 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		0FB7077A16ABB58E00AC6FF5 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +133,21 @@
 		0F5B213C16AABBFC00F5E928 /* bDict_EngViet */ = {
 			isa = PBXGroup;
 			children = (
+				0F5B217116AAEC0D00F5E928 /* Resources */,
 				0F5B214516AABBFC00F5E928 /* AppDelegate.h */,
 				0F5B214616AABBFC00F5E928 /* AppDelegate.m */,
 				0F5B214E16AABBFC00F5E928 /* ViewController.h */,
 				0F5B214F16AABBFC00F5E928 /* ViewController.m */,
 				0F5B215116AABBFC00F5E928 /* ViewController.xib */,
 				0F5B213D16AABBFC00F5E928 /* Supporting Files */,
+				0FB7077016ABB55600AC6FF5 /* HomeView.h */,
+				0FB7077116ABB55600AC6FF5 /* HomeView.m */,
+				0FB7077316ABB57100AC6FF5 /* HistoryView.h */,
+				0FB7077416ABB57100AC6FF5 /* HistoryView.m */,
+				0FB7077616ABB57E00AC6FF5 /* StorageView.h */,
+				0FB7077716ABB57E00AC6FF5 /* StorageView.m */,
+				0FB7077916ABB58E00AC6FF5 /* SettingView.h */,
+				0FB7077A16ABB58E00AC6FF5 /* SettingView.m */,
 			);
 			path = bDict_EngViet;
 			sourceTree = "<group>";
@@ -158,6 +183,15 @@
 				0F5B216316AABBFC00F5E928 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F5B217116AAEC0D00F5E928 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FB7076D16ABB4DC00AC6FF5 /* home.png */,
+				0F5B217216AAEC0D00F5E928 /* top_image.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +269,8 @@
 				0F5B214B16AABBFC00F5E928 /* Default@2x.png in Resources */,
 				0F5B214D16AABBFC00F5E928 /* Default-568h@2x.png in Resources */,
 				0F5B215316AABBFC00F5E928 /* ViewController.xib in Resources */,
+				0F5B217316AAEC0D00F5E928 /* top_image.jpg in Resources */,
+				0FB7076E16ABB4DC00AC6FF5 /* home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +308,10 @@
 				0F5B214316AABBFC00F5E928 /* main.m in Sources */,
 				0F5B214716AABBFC00F5E928 /* AppDelegate.m in Sources */,
 				0F5B215016AABBFC00F5E928 /* ViewController.m in Sources */,
+				0FB7077216ABB55600AC6FF5 /* HomeView.m in Sources */,
+				0FB7077516ABB57100AC6FF5 /* HistoryView.m in Sources */,
+				0FB7077816ABB57E00AC6FF5 /* StorageView.m in Sources */,
+				0FB7077B16ABB58E00AC6FF5 /* SettingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +383,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -364,7 +404,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -446,6 +486,7 @@
 				0F5B216D16AABBFC00F5E928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F5B216E16AABBFC00F5E928 /* Build configuration list for PBXNativeTarget "bDict_EngVietTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +495,7 @@
 				0F5B217016AABBFC00F5E928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
